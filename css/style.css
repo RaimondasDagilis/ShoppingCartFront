@@ -1,0 +1,92 @@
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+}
+body #navigation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: lightgreen;
+}
+body #navigation #logo {
+  height: 50px;
+}
+body #navigation div {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+body #navigation div p {
+  font-size: 20px;
+  font-weight: bolder;
+  color: darkgreen;
+}
+body #navigation div p,
+body #navigation div img {
+  padding: 0px 10px 0px 10px;
+}
+body #navigation #navigation-left {
+  justify-content: left;
+}
+body #navigation #navigation-right {
+  justify-content: right;
+}
+body #menu {
+  background-color: darkgreen;
+  width: 50%;
+  align-self: flex-end;
+}
+body #menu p {
+  font-size: 20px;
+  font-weight: bold;
+  color: wheat;
+  border: 1px solid wheat;
+  margin: 0px;
+  padding: 5px;
+}
+body #list {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-top: 20px;
+}
+body #list hr {
+  width: 100%;
+}
+body #list p {
+  margin: 0px;
+}
+body #list .item {
+  width: 75%;
+  text-align: left;
+}
+body #list .qnt {
+  width: 20%;
+  text-align: right;
+  padding-right: 10px;
+}
+body #list .check {
+  width: 5%;
+  text-align: right;
+}
+body #list #list-labels {
+  display: flex;
+  flex-direction: row;
+}
+body #list #list-items {
+  display: flex;
+  flex-direction: column;
+}
+body #list #list-items .item-container {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=style.css.map */
